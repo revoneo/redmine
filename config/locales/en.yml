@@ -1209,3 +1209,12 @@ en:
   description_issue_category_reassign: Choose issue category
   description_wiki_subpages_reassign: Choose new parent page
   text_repository_identifier_info: 'Only lower case letters (a-z), numbers, dashes and underscores are allowed.<br />Once saved, the identifier cannot be changed.'
+
+  faker:
+    name:
+      first_name: FirstName
+      last_name: LastName
+    company:
+      name: CompanyName
+    internet:
+      domain_suffix: DomainSuffix

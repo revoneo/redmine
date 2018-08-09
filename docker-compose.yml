@@ -9,7 +9,7 @@ services:
     environment:
       TZ: Asia/Tokyo
       MYSQL_ROOT_PASSWORD: redmine
-      MYSQL_DATABASE: redmine
+      MYSQL_DATABASE: redmine_development
       MYSQL_USER: redmine
       MYSQL_PASSWORD: redmine
     volumes:

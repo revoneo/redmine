@@ -89,6 +89,9 @@ end
 group :development do
   gem "rdoc", "~> 4.3"
   gem "yard"
+  gem "guard-shell"
+  gem 'guard-livereload', '~> 2.5', require: false
+  gem 'rack-livereload'
 end
 
 group :test do
@@ -101,6 +104,7 @@ group :test do
   # For running UI tests
   gem "capybara", '~> 2.13'
   gem "selenium-webdriver", "~> 2.53.4"
+  gem "chromedriver-helper"
 end
 
 local_gemfile = File.join(File.dirname(__FILE__), "Gemfile.local")
